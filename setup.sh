@@ -7,5 +7,5 @@ set -o errexit
 pip install -r dependencies.txt
 
 # Run migration just in case
-pythin manage.py migrate
+python manage.py migrate
 
